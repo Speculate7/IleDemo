@@ -1,0 +1,44 @@
+.sitename {
+  display: inline;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.title {
+  display: inline;
+  font-size: 20px;
+  margin-right: 1rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  margin: 1rem auto;
+  max-width: 700px;
+  padding: 1.25rem 1rem 0;
+}
+
+.navitems, .navitem {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 10px;
+}
+
+.link, .link a {
+  color: #1ca086;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  margin: 1rem 1rem auto 1rem;
+  max-width: 650px;
+  font-size: 17px;
+}
