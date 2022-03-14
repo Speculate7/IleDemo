@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        "icon": "src/assets/icon.png"
+        "icon": "src/assets/android-chrome-512x512.png"
       }
     },
     "gatsby-plugin-sharp",

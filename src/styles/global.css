@@ -1,27 +1,49 @@
-.sitename {
-  display: inline;
-  font-size: 24px;
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&family=Work+Sans:wght@600&display=swap');
+
+html, body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 100%;
+  color: hsla(0,0%,0%,0.8);
+}
+/* body {
+  display: flex;
+  justify-content: center;
+} */
+
+h1, h2 {
+  font-family: 'Work Sans', sans-serif;
+  color: hsla(0,0%,0%,0.9);
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+b {
+  font-weight:700;
 }
 
 .container {
   max-width: 800px;
-}
-
-.title {
-  display: inline;
-  font-size: 20px;
-  margin-right: 1rem;
-}
-
-.header {
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
-  margin: 1rem auto;
+  margin: 1rem .25rem;
   max-width: 700px;
   padding: 1.25rem 1rem 0;
 }
+
+.sitename {
+  display: inline;
+  color: black;
+}
+
 
 .navitems, .navitem {
   display: inline-block;
@@ -29,7 +51,7 @@
   margin-top: 10px;
 }
 
-.link, .link a {
+.link {
   color: #1ca086;
 }
 
@@ -38,7 +60,15 @@ a {
 }
 
 .content {
-  margin: 1rem 1rem auto 1rem;
+  margin: 1rem  auto;
   max-width: 650px;
-  font-size: 17px;
+  line-height: 1.45;
+  align-self: center;
+  
 }
+
+.title {
+  display: inline;
+  margin-right: 1rem;
+}
+

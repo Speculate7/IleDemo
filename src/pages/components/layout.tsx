@@ -15,9 +15,9 @@ const Layout = ({ children }: AppProps) =>
           <h1 className="sitename"><span style={{ color: '#1ca086' }}>Remo</span> Kingdom</h1>
         </Link>
         <ul className="navitems">
-          <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/">Home</Link></li>
-          <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/servicesncontact/">Services & Contact</Link></li>
+          <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/about/">About</Link></li>
           <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/resume/">Resume</Link></li>
+          <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/tuitionfund/">Tuition Fund</Link></li>
         </ul>
       </div>
     </header>

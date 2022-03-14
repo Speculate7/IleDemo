@@ -4,6 +4,7 @@ import Layout from "./components/layout"
 
 const Resume = () =>
   <Layout>
+    <div className="content">
     <main>
       <StaticImage
         src="../assets/resume.png"
@@ -17,6 +18,7 @@ const Resume = () =>
         rel="noopener"
       >Download or Print PDF</a>
     </main>
+    </div>
   </Layout>
 
 export default Resume;
