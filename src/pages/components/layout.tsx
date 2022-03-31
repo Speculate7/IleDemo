@@ -16,6 +16,7 @@ const Layout = ({ children }: AppProps) =>
         </Link>
         <ul className="navitems">
           <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/about/">About</Link></li>
+          <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/">Services</Link></li>
           <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/resume/">Resume</Link></li>
           <li className="navitem"><Link className="link" activeStyle={{textDecoration: "underline"}} to="/tuitionfund/">Tuition Fund</Link></li>
         </ul>
