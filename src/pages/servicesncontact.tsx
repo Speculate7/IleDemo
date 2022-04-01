@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "./components/layout"
 
 const ServicesNContact = () =>
-  <Layout>
+  <Layout pageTitle="Services &#38; Contact">
     <div className="content">
       <main>
         

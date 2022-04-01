@@ -2,7 +2,9 @@
 module.exports = {
   siteMetadata: {
     title: `RemoKingdom`,
-    siteUrl: `https://remokingdon.com`
+    siteUrl: `https://remokingdon.com`,
+    description: `Web development services: CMS, Headless CMS, Websites, Static sites`,
+    image:  `${__dirname}/src/assets/android-chrome-512x512.png`
   },
   plugins: [
     "gatsby-plugin-image",

@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "./components/layout"
 
 const Resume = () =>
-  <Layout>
+  <Layout pageTitle="Title">
     <div className="content">
     <main>
       <StaticImage

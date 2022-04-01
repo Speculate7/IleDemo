@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "./components/layout"
 
 const About = () =>
-  <Layout>
+  <Layout pageTitle="About">
     <div className="content">
       <main>
         <h2 className="title">
