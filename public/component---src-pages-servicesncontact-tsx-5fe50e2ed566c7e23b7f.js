@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkremokingdom=self.webpackChunkremokingdom||[]).push([[384],{8095:function(e,t,n){n.r(t);var a=n(7294),l=n(6525);t.default=function(){return a.createElement(l.default,{pageTitle:"Services & Contact"},a.createElement("div",{className:"content"},a.createElement("main",null,a.createElement("br",null))))}}}]);
+//# sourceMappingURL=component---src-pages-servicesncontact-tsx-5fe50e2ed566c7e23b7f.js.map
