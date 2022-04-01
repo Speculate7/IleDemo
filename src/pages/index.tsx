@@ -1,29 +1,25 @@
+
 import React from "react"
 import Layout from "./components/layout"
 
-export default () =>
-  <Layout pageTitle="Home">
+const About = () =>
+  <Layout pageTitle="About">
     <div className="content">
       <main>
+        <h2 className="title">
+          About me
+        </h2>
 
-        <p className="services">
-
-          <b>Need to update your site?</b> I can perform platform, plugin and content updates for any CMS (wix, squarespace, etc) <br /><br />
-          <b>Wanna switch up your domain name?</b> I can help you select, setup and redirect all web or email traffic to the new address.<br /><br />
-          <b>Got a brand new design you want the world to see?</b> I use mobile-friendly CSS to implement responsive custom designs and layouts.<br /><br />
-          <b>Wanna make your page do something funky, outside the box?</b> I can help you with that too!I write custom code to integrate third-party tools and APIs with your site.
-        </p>
-        <br />
-        <h2 className="title">Let's create!</h2>
-        <p>Book a call with me <span />
-          <a
-            className="link"
-            href="https://calendly.com/ore-akins"
-            target="_blank"
-            rel="nofollow">
-            here
-          </a>. I want to hear your ideas!
+        <p>
+          Oré believes that technology should be accessible by all. They envision a much more inclusive and connected web.
+          Ore has been assisting creators in carving out their domain for over six years in order to realize that dream.
+          They provide a collaborative approach to designing the best solution through Remokingdom Services. They
+          collaborate to create a unique project roadmap while balancing consistency and flexibility. When they are not
+          inside a computer, Ore finds balance on a bike and around plants. They frequently use those things to reconnect with and ground themselves
+          in the present, as well as remember the bigger picture. Joy.
         </p>
       </main>
     </div>
   </Layout>
+
+export default About;

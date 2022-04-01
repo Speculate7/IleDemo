@@ -1,4 +1,6 @@
 /** @type {import('gatsby').GatsbyConfig} */
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: `RemoKingdom`,
@@ -25,6 +27,14 @@ module.exports = {
         "path": "./src/assets/"
       },
       __key: "assets"
-    }
+    },
+    {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        apiToken: process.env.DATO_API_TOKEN,
+        preview: false,
+        disableLiveReload: false,
+      },
+    },
   ]
 };
