@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        "icon": "src/assets/android-chrome-512x512.png"
+        "icon": `${__dirname}/src/assets/android-chrome-512x512.png`
       }
     },
     "gatsby-plugin-sharp",
@@ -24,7 +24,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "assets",
-        "path": "./src/assets/"
+        "path": `${__dirname}/src/assets/`
       },
       __key: "assets"
     },

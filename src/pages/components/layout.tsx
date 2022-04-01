@@ -37,7 +37,7 @@ const Layout = ({ children, pageTitle, pageDescription, pageImage}: AppProps) =>
         <header>
           <div className="navbar">
             <Link to="/">
-              <h1 className="sitename"><span style={{ color: '#1ca086' }}>Remo</span> Kingdom</h1>
+              <h1 className="sitename"><span style={{ color: '#1ca086' }}>Demo</span> Kingdom</h1>
             </Link>
             <ul className="navitems">
               <li className="navitem"><Link className="link" activeStyle={{ textDecoration: "underline" }} to="/">About</Link></li>
