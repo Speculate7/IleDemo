@@ -10,7 +10,11 @@
     Uses graphql to query data from DatoCMS soruce via plugin **gatsby-source-datocms**
 
     ```shel
+<<<<<<< HEAD
     yarn init gatsby
+=======
+    npm init gatsby
+>>>>>>> 198db176ffbf1c6ed77aeeed1220ee0c309bc49a
     ```
 
 2.  **Start developing.**
